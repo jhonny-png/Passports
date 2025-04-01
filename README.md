@@ -79,7 +79,7 @@
         </div>
         
         <div class="status-box">
-            <div class="status completed">✅ Application Submitted - 1 April 2025</div>
+            <div class="status completed">✅ Application Submitted - 4 April 2025</div>
             <div class="status">🔄 Document Verification in Progress - 4 April 2025</div>
             <div class="status">⏳ Biometric Capturing Pending</div>
             <div class="status">⏳ Passport Printing Pending</div>
