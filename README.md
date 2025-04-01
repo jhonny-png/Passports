@@ -72,16 +72,16 @@
     </div>
     <div class="container">
         <h2>Applicant: Jhonny Vokhiwa</h2>
-        <p>Date: 4 April 2025</p>
+        <p>Date: 1 April 2025</p>
         
         <div class="progress-bar">
             <div class="progress">20% Completed</div>
         </div>
         
         <div class="status-box">
-            <div class="status completed">✅ Application Submitted - 4 April 2025</div>
-            <div class="status">🔄 Document Verification in Progress - 4 April 2025</div>
-            <div class="status">⏳ Biometric Capturing Pending</div>
+            <div class="status completed">✅ Application Submitted - 1 April 2025</div>
+            <div class="status">🔄 Document Verification in Progress - 1 April 2025</div>
+            <div class="status">⏳ Biometric Capturing Done</div>
             <div class="status">⏳ Passport Printing Pending</div>
             <div class="status">⏳ Ready for Collection - To Be Updated</div>
         </div>
