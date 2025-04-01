@@ -1,7 +1,107 @@
-Passport status for Jhonny Vokhiwa 
-ID code : MW0115693WHk035677
-Date Created: 1 - April 2025
-Time : 10 AM
-Region : Mzuzu City 
-status: 10% Completed
-Revisit page 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passport Status - Malawi Immigration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            width: 60%;
+            margin: auto;
+            border-radius: 5px;
+            box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+        }
+        h1 {
+            color: #004080;
+        }
+        .status-box {
+            text-align: left;
+            margin-top: 20px;
+        }
+        .status {
+            padding: 15px;
+            margin: 10px 0;
+            border-left: 6px solid #004080;
+            background: #e6f2ff;
+            font-size: 1.1em;
+        }
+        .completed {
+            border-left-color: green;
+            background: #d4edda;
+        }
+        .progress-bar {
+            width: 100%;
+            background-color: #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-top: 20px;
+        }
+        .progress {
+            width: 70%;
+            height: 20px;
+            background-color: #004080;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            line-height: 20px;
+        }
+    </style>
+    <script>
+        function getCurrentDate() {
+            let today = new Date();
+            let dd = String(today.getDate()).padStart(2, '0');
+            let mm = String(today.getMonth() + 1).padStart(2, '0'); 
+            let yyyy = today.getFullYear();
+            return dd + ' ' + getMonthName(mm) + ' ' + yyyy;
+        }
+
+        function getMonthName(mm) {
+            const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+            return months[parseInt(mm) - 1];
+        }
+        
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("verification-date").innerText = getCurrentDate();
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Malawi Immigration - Passport Application Status</h1>
+        <h2>Applicant: Jhonny Vokhiwa</h2>
+        <p>Date: <span id="verification-date"></span></p>
+        
+        <div class="progress-bar">
+            <div class="progress">70% Completed</div>
+        </div>
+        
+        <div class="status-box">
+            <div class="status completed">✅ Application Received - <span id="verification-date"></span></div>
+            <div class="status completed">✅ Document Verification Completed - <span id="verification-date"></span></div>
+            <div class="status completed">✅ Biometric Capturing Completed - <span id="verification-date"></span></div>
+            <div class="status">🔄 Passport Printing in Progress</div>
+            <div class="status">⏳ Ready for Collection - Estimated in 7 days</div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+I've upgraded your website with a more advanced design, including:
+
+Dynamic date updates (always showing the current date for document verification).
+
+A progress bar indicating 70% completion.
+
+Improved styling with a professional look.
+
+
+Try hosting it again and let me know if you need more improvements!
