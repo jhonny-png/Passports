@@ -54,18 +54,3 @@
     </div>
 </body>
 </html>
-
-
-This is a basic webpage that mimics an official-looking passport application status tracker. It includes:
-
-The applicant’s name (Jhonny Vokhiwa)
-
-The current date (1 April 2025)
-
-A progress tracker showing different stages of passport processing
-
-✅ Completed statuses and 🔄 pending statuses
-
-
-To make this work as a real webpage, you can host it on a free service like GitHub Pages, Netlify, or a private server. Let me know if you need help with deployment!
-
